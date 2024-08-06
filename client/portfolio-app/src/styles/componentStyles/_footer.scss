@@ -1,0 +1,54 @@
+@use "../global/" as *;
+.container__main {
+  &.footer {
+    background-color: $color-bg;
+    align-items: flex-start;
+    margin-top: $space-max;
+    margin-bottom: 2.4rem;
+    padding: 0rem var(--space-side);
+    @media (max-width: 900px) {
+      margin-top: var(--space-outer);
+      margin-bottom: var(--space-inner);
+    }
+  }
+  &.footer__contact {
+    margin-bottom: $space-small;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1.8rem;
+    padding: 3.3rem var(--space-side);
+
+    & .contact__info,
+    & .contact__social {
+      display: flex;
+      flex-direction: column;
+      gap: 1.8rem;
+    }
+    & .p__normal {
+      display: flex;
+      gap: 1rem;
+
+      & span {
+        display: flex;
+        width: max-content;
+      }
+    }
+  }
+  &.footer__final {
+    margin-bottom: $space-normal;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 1.7rem var(--space-side);
+    @media (max-width: 700px) {
+      justify-content: center;
+      flex-direction: column;
+    }
+  }
+}

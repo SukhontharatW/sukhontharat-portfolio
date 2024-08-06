@@ -1,0 +1,47 @@
+@use "../global/" as *;
+
+.container__main.hero {
+  margin-top: $space-max;
+  margin-bottom: $space-max;
+  text-align: center;
+  padding: 10rem var(--space-side);
+  min-height: 85vh;
+  justify-items: center;
+
+  & .heading__h1 {
+    margin: 0.8rem 0rem 1.6rem 0rem;
+  }
+  & .hero-btn {
+    margin: 2.2rem 0rem;
+  }
+  & .profile {
+    border-radius: 2rem;
+
+    & img {
+      border-radius: 2rem;
+      // max-width: 38rem;
+      max-width: 36rem;
+
+      @media (max-width: 800px) {
+        // max-width: 36rem;
+        max-width: 34rem;
+      }
+      @media (max-width: 600px) {
+        max-width: 30rem;
+      }
+      @media (max-width: 400px) {
+        max-width: 28rem;
+      }
+    }
+  }
+}
+.container__main.home__project {
+  margin-top: $space-max;
+  margin-bottom: $space-medium;
+  background-color: $color-bg;
+  align-items: flex-start;
+  padding: 0 var(--space-side);
+}
+.quote {
+  margin-top: 2rem;
+}

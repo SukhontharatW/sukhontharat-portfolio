@@ -1,0 +1,74 @@
+@use "../global/" as *;
+
+.container__main.about {
+  margin-top: $space-max;
+  margin-bottom: $space-max;
+  margin-top: $space-max;
+  // text-align: center;
+  padding: 6rem var(--space-side);
+  justify-items: center;
+
+  & .profile {
+    border-radius: 2rem;
+    margin-top: 4.4rem;
+    margin-bottom: 3rem;
+
+    & img {
+      border-radius: 2rem;
+      // max-width: 38rem;
+      max-width: 36rem;
+
+      @media (max-width: 800px) {
+        // max-width: 36rem;
+        max-width: 34rem;
+      }
+      @media (max-width: 600px) {
+        max-width: 30rem;
+      }
+      @media (max-width: 400px) {
+        max-width: 28rem;
+      }
+    }
+  }
+
+  & .p__normal {
+    margin-bottom: 1.4rem;
+    padding: 0rem 8rem;
+
+    @media (max-width: 900px) {
+      padding: 0rem 4rem;
+    }
+    @media (max-width: 700px) {
+      padding: 0rem 2rem;
+    }
+    @media (max-width: 430px) {
+      padding: 0rem 0rem;
+    }
+  }
+
+  & .btn__small {
+    margin-top: 2rem;
+  }
+}
+.container__main.title {
+  background-color: $color-bg;
+  align-items: flex-start;
+  margin-bottom: $space-small;
+  padding: 0 var(--space-side);
+}
+.container__main.list__container {
+  background-color: rgba($color-white, 0.9);
+  backdrop-filter: blur(10px);
+  align-items: flex-start;
+  margin-bottom: $space-medium;
+  padding: 3.3rem var(--space-side);
+}
+.container__main.info__container {
+  background-color: rgba($color-white, 0.9);
+  backdrop-filter: blur(10px);
+  align-items: flex-start;
+  margin-bottom: $space-normal;
+  margin-bottom: $space-medium;
+
+  padding: 3.3rem var(--space-side);
+}
