@@ -1,20 +1,13 @@
-/* eslint-disable no-unused-vars */
-import { Link, useLoaderData, useNavigate } from "react-router-dom";
+import { Link, useLoaderData } from "react-router-dom";
 import { getProjects } from "../services/apiProject";
-// import plantShopImg from "../image/plant-shop.png";
 
 function ProjectAll() {
   const projects = useLoaderData();
-  const navigate = useNavigate();
-  function handleDetail(projectId) {
-    console.log(projectId);
-    navigate(`/projects/${projectId}`);
-  }
 
   return (
     <div className="container">
       <div className="container__main project__all--group">
-        {projects.reverse().map((project) => {
+        {projects.map((project) => {
           return (
             <div
               className="project__all--item shadow"
@@ -29,7 +22,6 @@ function ProjectAll() {
                 <div className="project__all--btn">
                   <Link
                     to={`/projects/${project._id.toString()}`}
-                    // onClick={() => handleDetail(project._id.toString())}
                     className="btn__small"
                   >
                     Detail
