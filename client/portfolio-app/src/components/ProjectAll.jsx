@@ -52,9 +52,12 @@ function ProjectAll() {
 }
 // eslint-disable-next-line react-refresh/only-export-components
 export async function loader() {
-  let projects = await getProjects();
+  const projects = await getProjects();
+
   console.log(projects);
-  projects = projects.sort((a, b) => b.projectId - a.projectId);
+  projects.sort((a, b) => {
+    return b.projectId - a.projectId;
+  });
   console.log(projects);
 
   return projects;
