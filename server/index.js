@@ -1,13 +1,19 @@
-const express = require("express");
-const app = express();
 const mongoose = require("mongoose");
 const ProjectModel = require("./models/Projects");
+const express = require("express");
+const app = express();
 const cors = require("cors");
-require("dotenv").config();
+app.use(
+  cors({
+    origin: "http://localhost:5173",
+    credentials: true,
+  })
+);
 app.use(express.json());
-app.use(cors());
 
+require("dotenv").config();
 const API_KEY = process.env.API_KEY;
+console.log(API_KEY);
 mongoose.connect(
   `mongodb+srv://sukhontharatw:${API_KEY}@cluster0.2d8dkvp.mongodb.net/portfolio?retryWrites=true&w=majority&appName=Cluster0`
 );
@@ -21,12 +27,6 @@ app.get("/getProjects", async (req, res) => {
   }
 });
 
-// app.post("/createProject", async (req, res) => {
-//   const project = await req.body;
-//   const newProject = new ProjectModel(project);
-//   await newProject.save();
-//   res.json(project);
-// });
 const port = process.env.PORT || 3001;
 console.log(port);
 app.listen(port, () => {

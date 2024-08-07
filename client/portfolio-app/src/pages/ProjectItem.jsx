@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import { Link, useLoaderData } from "react-router-dom";
-import { getProjectItem } from "../../services/apiProject";
+import { getProjectItem } from "../services/apiProject";
 function ProjectItem() {
   const projectItem = useLoaderData();
   // console.log(projectItem);
@@ -27,7 +27,7 @@ function ProjectItem() {
         </div>
       </div>
       <div className="container__main title">
-        <h5 className="heading__h5">Project Description</h5>
+        <h5 className="heading__h5">Project Overview</h5>
       </div>
       <div className="container__main info__container">
         <p className="p__normal">{description}</p>

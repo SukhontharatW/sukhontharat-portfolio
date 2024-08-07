@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import { Link, useLoaderData, useNavigate } from "react-router-dom";
-import { getProjects } from "../../services/apiProject";
+import { getProjects } from "../services/apiProject";
 // import plantShopImg from "../image/plant-shop.png";
 
 function ProjectAll() {
@@ -23,7 +23,7 @@ function ProjectAll() {
               <div className="project__all--image">
                 <img src={project.image} alt="project image" />
               </div>
-              <p className="p__strong">{project.name}</p>
+              <p className="p__strong">{project.project}</p>
               <div className="project__all--info">
                 <p className="p__small">{project.type}</p>
                 <div className="project__all--btn">
