@@ -35,7 +35,7 @@ function About() {
         </p>
         <Link
           to={
-            "https://hjmcuvfhzmhjauagcqrq.supabase.co/storage/v1/object/sign/CV-pdf/Sukhontharat-Resume.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJDVi1wZGYvU3VraG9udGhhcmF0LVJlc3VtZS5wZGYiLCJpYXQiOjE3MjI3MDIwMDMsImV4cCI6MTc1NDIzODAwM30.VuU_Qz1gKWoE7Euhis60soVxoqM4v261nZq6OxXNjyM&t=2024-08-03T16%3A20%3A03.391Z"
+            "https://hjmcuvfhzmhjauagcqrq.supabase.co/storage/v1/object/sign/CV-pdf/Resume-Sukhontharat.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJDVi1wZGYvUmVzdW1lLVN1a2hvbnRoYXJhdC5wZGYiLCJpYXQiOjE3MjMwNjc1NDgsImV4cCI6MTc1NDYwMzU0OH0.m85tZf_ZArhoWuID8pDXnhbEyC7S9z8EXn7poPTOL7c&t=2024-08-07T21%3A52%3A28.370Z"
           }
           target="_blank"
           className="btn__small"
