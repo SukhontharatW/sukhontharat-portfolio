@@ -28,7 +28,7 @@ app.get("/getProjects", async (req, res) => {
 });
 
 const port = process.env.PORT || 3001;
-console.log(port);
+// console.log(port);
 app.listen(port, () => {
   console.log("Server is running...");
 });
