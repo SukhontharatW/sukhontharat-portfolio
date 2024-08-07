@@ -56,7 +56,7 @@ export async function loader() {
 
   console.log(projects);
   projects.sort((a, b) => {
-    return b.projectId - a.projectId;
+    return Number(b.projectId) - Number(a.projectId);
   });
   console.log(projects);
 
