@@ -1,4 +1,5 @@
-const API_URL = "http://localhost:3001";
+// const API_URL = "http://localhost:3001";
+const API_URL = "https://portfolio-api-flvz.onrender.com";
 export async function getProjects() {
   const res = await fetch(`${API_URL}/getProjects`);
   // const res = await fetch(`http://localhost:3001/getProjects`);
