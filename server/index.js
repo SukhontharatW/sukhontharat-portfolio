@@ -5,7 +5,7 @@ const app = express();
 const cors = require("cors");
 app.use(
   cors({
-    origin: "https://sukhontharat-portfolio.onrender.com",
+    origin: "https://sukhontharat-portfolio.onrender.com/",
     credentials: true,
   })
 );
