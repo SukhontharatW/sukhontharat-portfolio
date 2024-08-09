@@ -42,7 +42,6 @@ function ProjectItem() {
       </div>
       <div className="container__main info__container">
         <p className="p__normal">
-          <strong>Overview : </strong>
           {description}
           <br />
           <strong>Purpose : </strong>
