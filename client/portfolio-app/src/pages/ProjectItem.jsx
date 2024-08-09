@@ -4,8 +4,19 @@ import { getProjectItem } from "../services/apiProject";
 function ProjectItem() {
   const projectItem = useLoaderData();
   // console.log(projectItem);
-  const { image, name, project, code, demo, release, description, tech } =
-    projectItem;
+  const {
+    image,
+    name,
+    project,
+    code,
+    demo,
+    release,
+    description,
+    purpose,
+    dev,
+    design,
+    tech,
+  } = projectItem;
   return (
     <div className="container">
       <div className="container__main projects">
@@ -30,7 +41,16 @@ function ProjectItem() {
         <h5 className="heading__h5">Project Overview</h5>
       </div>
       <div className="container__main info__container">
-        <p className="p__normal">{description}</p>
+        <p className="p__normal">
+          <strong>Overview : </strong>
+          {description}\n
+          <strong>Purpose : </strong>
+          {purpose}\n
+          <strong>Developer : </strong>
+          {dev}\n
+          <strong>UI Desinger: </strong>
+          {design}
+        </p>
       </div>
       <div className="container__main title">
         <h5 className="heading__h5">Technologies Used in This Project</h5>
