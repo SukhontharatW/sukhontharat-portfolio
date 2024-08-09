@@ -43,11 +43,14 @@ function ProjectItem() {
       <div className="container__main info__container">
         <p className="p__normal">
           <strong>Overview : </strong>
-          {description}\n
+          {description}
+          <br />
           <strong>Purpose : </strong>
-          {purpose}\n
+          {purpose}
+          <br />
           <strong>Developer : </strong>
-          {dev}\n
+          {dev}
+          <br />
           <strong>UI Desinger: </strong>
           {design}
         </p>
