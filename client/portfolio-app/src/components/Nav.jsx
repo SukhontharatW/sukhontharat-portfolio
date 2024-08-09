@@ -38,7 +38,7 @@ function Nav() {
           <li className="navbar__item p__strong hideOnMobile">
             <Link
               to={
-                "https://hjmcuvfhzmhjauagcqrq.supabase.co/storage/v1/object/sign/CV-pdf/Resume-Sukhontharat.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJDVi1wZGYvUmVzdW1lLVN1a2hvbnRoYXJhdC5wZGYiLCJpYXQiOjE3MjMyMjcxMzgsImV4cCI6MTc1NDc2MzEzOH0.6yL3wH7LoqskuIdDopYdMgliZafsQEVqO88S6uGzSGU&t=2024-08-09T18%3A12%3A18.499Z"
+                "https://hjmcuvfhzmhjauagcqrq.supabase.co/storage/v1/object/sign/CV-pdf/Resume-Sukhontharat.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJDVi1wZGYvUmVzdW1lLVN1a2hvbnRoYXJhdC5wZGYiLCJpYXQiOjE3MjMyMzQyMDUsImV4cCI6MTc1NDc3MDIwNX0.Bdi0HdAKsiI6MwHfCNCfc7ZCWvWPOUFeowkXUNVhITs&t=2024-08-09T20%3A10%3A05.767Z"
               }
               className="navbar__link"
               target="_blank"
@@ -76,7 +76,7 @@ function Nav() {
           <li className="navbar__item p__strong" onClick={hiddenSideBar}>
             <Link
               to={
-                "https://hjmcuvfhzmhjauagcqrq.supabase.co/storage/v1/object/sign/CV-pdf/Resume-Sukhontharat.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJDVi1wZGYvUmVzdW1lLVN1a2hvbnRoYXJhdC5wZGYiLCJpYXQiOjE3MjMyMjcxMzgsImV4cCI6MTc1NDc2MzEzOH0.6yL3wH7LoqskuIdDopYdMgliZafsQEVqO88S6uGzSGU&t=2024-08-09T18%3A12%3A18.499Z"
+                "https://hjmcuvfhzmhjauagcqrq.supabase.co/storage/v1/object/sign/CV-pdf/Resume-Sukhontharat.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJDVi1wZGYvUmVzdW1lLVN1a2hvbnRoYXJhdC5wZGYiLCJpYXQiOjE3MjMyMzQyMDUsImV4cCI6MTc1NDc3MDIwNX0.Bdi0HdAKsiI6MwHfCNCfc7ZCWvWPOUFeowkXUNVhITs&t=2024-08-09T20%3A10%3A05.767Z"
               }
               className="navbar__link"
               target="_blank"
