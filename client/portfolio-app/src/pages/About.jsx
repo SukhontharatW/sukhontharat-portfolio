@@ -44,7 +44,7 @@ function About() {
         </Link>
       </div>
       <div className="container__main title">
-        <h5 className="heading__h5">Technologies Used</h5>
+        <h5 className="heading__h5">Key Technical Skills</h5>
       </div>
       <div className="container__main list__container">
         <ul className="list__set">
