@@ -44,6 +44,7 @@ function ProjectItem() {
         <p className="p__normal">
           {description}
           <br />
+          <br />
           <strong>Purpose : </strong>
           {purpose}
           <br />
