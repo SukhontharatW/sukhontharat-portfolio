@@ -13,7 +13,6 @@ app.use(express.json());
 
 require("dotenv").config();
 const API_KEY = process.env.API_KEY;
-console.log(API_KEY);
 mongoose.connect(
   `mongodb+srv://sukhontharatw:${API_KEY}@cluster0.2d8dkvp.mongodb.net/portfolio?retryWrites=true&w=majority&appName=Cluster0`
 );
