@@ -71,7 +71,7 @@ function About() {
             <p className="p__normal">
               <strong> Tool : </strong>
               Figma, Vite, VS code, Chrome Developer Tools, Netlify, Render,
-              Thunder Client
+              Thunder Client, Google Lighthouse
             </p>
           </li>
           <li className="list__item">
