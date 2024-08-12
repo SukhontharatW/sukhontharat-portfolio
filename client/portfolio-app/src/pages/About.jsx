@@ -52,7 +52,7 @@ function About() {
             <p className="p__normal">
               <strong>Programming language, Framework, Library : </strong>
               Python, JavaScript, HTML, CSS, SASS, Styled-Components,
-              TailwindCSS, React, Node.js, Express
+              TailwindCSS, React, XML, JSON, Node.js, Express
             </p>
           </li>
           <li className="list__item">
