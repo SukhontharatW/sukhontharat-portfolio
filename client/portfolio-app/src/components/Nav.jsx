@@ -3,13 +3,11 @@ import LinkButton from "./LinkButton";
 import { HiOutlineMenu, HiOutlineX } from "react-icons/hi";
 
 function Nav() {
-  const showSidebar = (event) => {
-    event.preventDefault();
+  const showSidebar = () => {
     const sidebar = document.querySelector(".sidebar");
     sidebar.style.display = "flex";
   };
-  const hiddenSideBar = (event) => {
-    event.preventDefault();
+  const hiddenSideBar = () => {
     const sidebar = document.querySelector(".sidebar");
     sidebar.style.display = "none";
   };
