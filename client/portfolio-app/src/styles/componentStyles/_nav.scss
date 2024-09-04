@@ -47,6 +47,9 @@
   &__link {
     text-decoration: none;
     color: inherit;
+    border: none;
+    outline: none;
+    background-color: transparent;
   }
 }
 .navbar__list.sidebar {
