@@ -42,21 +42,22 @@ function Nav() {
               }
               className="navbar__link"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Resume
             </Link>
           </li>
           <li className="navbar__item p__strong " onClick={showSidebar}>
-            <Link className="navbar__link ">
+            <button className="navbar__link ">
               <HiOutlineMenu size={26} className="menu-btn" />
-            </Link>
+            </button>
           </li>
         </ul>
         <ul className="navbar__list sidebar">
           <li className="navbar__item p__strong" onClick={hiddenSideBar}>
-            <Link className="navbar__link">
+            <button className="navbar__link">
               <HiOutlineX size={26} />
-            </Link>
+            </button>
           </li>
           <li className="navbar__item p__strong" onClick={hiddenSideBar}>
             <LinkButton to={"/"} styling="navbar__link">
@@ -80,6 +81,7 @@ function Nav() {
               }
               className="navbar__link"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Resume
             </Link>
